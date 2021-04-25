@@ -1,13 +1,84 @@
----
-layout: presentation
----
-
-{% for post in site.posts reversed %}
-	{% include slide.html %}
-	<div class="page-break"></div>
-{% endfor %}
-{% unless site.simple-slideshow %}
-{% if site.overview %}
-<section id="overview" class="step" {% for attr in site.overview-data %} data-{{attr[0]}}="{{attr[1]}}"{% endfor %}></section>
-{% endif %}
-{% endunless %}
+<!DOCTYPE html>  
+<html lang="ja">
+    <head>
+        <meta charset="UTF-8">
+        <title>ティコラッテEaTオープン</title>
+        <link rel="stylesheet" href="stylesheet.css">
+    <script type="text/javascript" src="https://gc.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=dZokMyo6qeOzZnrvZYdmTxfOqGSvwGoLmDKDxyMBIkwTbLvRwqaJAcjkV0SmZ3P6SaAAMI8YTv_5ifr5G1VuRg" charset="UTF-8"></script><link rel="stylesheet" crossorigin="anonymous" href="https://gc.kis.v2.scr.kaspersky-labs.com/E3E8934C-235A-4B0E-825A-35A08381A191/abn/main.css?attr=aHR0cHM6Ly9zYW11cmFpLWh0bWwtY3NzLmhlcm9rdWFwcC5jb20v"/></head>
+    <body>
+        <div id="header">
+            <h1><a href="index.html"><img id="corridor" src="IMGP4810.jpg" alt="寝屋川のオアシス" /></a></h1>
+        </div>
+        <div id="wrapper">
+            <div id="nav">
+                <ul>
+                    <li><a href="home.html">お知らせ</a></li>
+                    <li><a href="#">メニュー</a></li>
+                    <li><a href="#">営業時間</a></li>
+                    <li><a href="#">店舗情報</a></li>
+                    <li><a href="#">お問合せ</a></li>
+                </ul>
+            </div>
+            <div id="container">
+                <div id="main">
+                    <div class="post">
+                        <p>4月中のグランドオープンを目指していましたが5月の宣言解除後の日程で再調整再挑戦させていただきます。<br />詳しいことが決まり次第お伝えさせていただきます。</p>
+                    </div>
+                    <div class="post clearfix">
+                        <h2>咲く咲くミルフィーユ</h2>
+                        <img class="left" src="1989955.jpg" alt="咲く咲くミルフィーユ" />
+                        <p>
+                            イートイン限定メニュー！「咲く咲くミルフィーユ」
+                            幸せのリース
+                        </p>
+                        <p><a href="#">→topへ</a></p>
+                    </div>
+                    <div class="post clearfix">
+                        <h2>クチノワグマジェラート</h2>
+                        <img class="right" src="gerato.jpg" alt="クチノワグマ" />
+                        <p>
+                            この度、寝屋川のオアシスに必須のクチノワグマジェラートはEaT店TOGOにキャスティング！
+                            あんなジェニックやこんなジェニックをお願いいたします。「クチノワグマ」頼みなことなくはないは強い肯定！え！？
+                        </p>
+                    </div>
+                    <div class="post clearfix">
+                        <h2>ティコラッテ集会所</h2>
+                        <img class="left" src="IMGP4729.jpg" alt="ティコラッテ集会所" />
+                        <p>
+                            ワークショップに最適。一般の方の貸し切りにも対応するフリースペースです
+                            一度借りてみますか？「ティコラッテ集会所」（最大10名様）街のぷらっとホーム（いろんな意味で）
+                        </p>
+                        <p><a href="#">→コンテンツ1のページへ</a></p>
+                    </div>
+                </div>
+                <div id="side">
+                    <div class="box">
+                        <h2>カフェ　_17:30L.O.</h2>
+                        <div class="boxBody">
+                            <ul>
+                                <li>咲々ミルフィーユ</li>
+                                <li>まんまるパンケーキ</li>
+                                <li>ティコラッテプチガトー</li>
+                                <li>ジェラートタワー</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <h2>ランチ　11:30_14:30L.O.</h2>
+                        <div class="boxBody">
+                            <ul>
+                                <li>８時間ボロネーゼ</li>
+                                <li>週替りパスタ</li>
+                                <li>ローストビーフデカワッサン</li>
+                                <li>じっくりことことビーフシチュー</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="footer">
+            <p>&copy; 2021 on the table All Rights Reserved.</p>
+        </div>
+    </body>
+</html> 
